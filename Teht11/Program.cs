@@ -18,7 +18,7 @@ namespace Teht11
             {
                 for (int pysty = 1; pysty <= rivi; pysty++)
                 {
-                    Console.WriteLine("* ");
+                    Console.WriteLine("*");
                 }
                 Console.Write("\n");
 
