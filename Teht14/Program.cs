@@ -62,26 +62,31 @@ namespace Teht14
                 Console.Write("*");
 
             Console.WriteLine();
+
             Console.WriteLine("1: ");
             for (int i = 0; i < luku1; i++)
                 Console.Write("*");
 
             Console.WriteLine();
+
             Console.WriteLine("2: ");
             for (int i = 0; i < luku2; i++)
                 Console.Write("*");
 
             Console.WriteLine();
+
             Console.WriteLine("3: ");
             for (int i = 0; i < luku3; i++)
                 Console.Write("*");
 
             Console.WriteLine();
+
             Console.WriteLine("4: ");
             for (int i = 0; i < luku4; i++)
                 Console.Write("*");
 
             Console.WriteLine();
+
             Console.WriteLine("5: ");
             for (int i = 0; i < luku5; i++)
                 Console.Write("*");
