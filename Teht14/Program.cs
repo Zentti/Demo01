@@ -23,32 +23,38 @@ namespace Teht14
             {
                 Console.Write("Anna arvosana asteikolla 0-5 ");
                 kirjotettu = int.Parse(Console.ReadLine());
-                laskuri++;
+                
 
                 switch (kirjotettu)
                 {
                     case 0:
                         luku0++;
+                        laskuri++;
                         break;
 
                     case 1:
                         luku1++;
+                        laskuri++;
                         break;
 
                     case 2:
                         luku2++;
+                        laskuri++;
                         break;
 
                     case 3:
                         luku3++;
+                        laskuri++;
                         break;
 
                     case 4:
                         luku4++;
+                        laskuri++;
                         break;
 
                     case 5:
                         luku5++;
+                        laskuri++;
                         break;
 
                     default:
@@ -57,39 +63,23 @@ namespace Teht14
                 }
             }
             Console.WriteLine("Arvosanat:");
-            Console.WriteLine("0: ");
-            for (int i = 0;i<luku0;i++)
-                Console.Write("*");
+            string nollaa = new string('*', luku0);
+            Console.WriteLine("0: " + nollaa);
 
-            Console.WriteLine();
+            string ykkosta = new string('*', luku1);
+            Console.WriteLine("1: " + ykkosta);
 
-            Console.WriteLine("1: ");
-            for (int i = 0; i < luku1; i++)
-                Console.Write("*");
+            string kakkosta = new string('*', luku2);
+            Console.WriteLine("2: " + kakkosta);
 
-            Console.WriteLine();
+            string kolmosta = new string('*', luku3);
+            Console.WriteLine("3: " + kolmosta);
 
-            Console.WriteLine("2: ");
-            for (int i = 0; i < luku2; i++)
-                Console.Write("*");
+            string nelosta = new string('*', luku4);
+            Console.WriteLine("4: " + nelosta);
 
-            Console.WriteLine();
-
-            Console.WriteLine("3: ");
-            for (int i = 0; i < luku3; i++)
-                Console.Write("*");
-
-            Console.WriteLine();
-
-            Console.WriteLine("4: ");
-            for (int i = 0; i < luku4; i++)
-                Console.Write("*");
-
-            Console.WriteLine();
-
-            Console.WriteLine("5: ");
-            for (int i = 0; i < luku5; i++)
-                Console.Write("*");
+            string vitosta = new string('*', luku5);
+            Console.WriteLine("5: " + vitosta);
 
             Console.WriteLine();
         }
